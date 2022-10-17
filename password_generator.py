@@ -6,9 +6,9 @@ class Password:
 
   def password_generator(self):
     """Generates a password"""
-    letters = ['shreya','devyani','gunu','vishakha','tutu','nitu','sony','arcade','pune','goa','carleton', 'guleph', 'ottawa', 'america', 'Japan', 'Nihon', 'ichiban', 'kawai', 'tutsnuts', 'custard','melon','laxmi','aroma','aurora','atlantic','arctic','nato','nubik','nodem', 'angela']
-    numbers = ['6184','2811','1104','6778','0711','0511','2022','0411', '2611']
-    symbols = ['#', '@']
+    letters = ['sony','arcade','pune','goa','carleton', 'guleph', 'ottawa', 'america', 'Japan', 'Nihon', 'ichiban', 'kawai', 'tutsnuts', 'custard','melon','laxmi','aroma','aurora','atlantic','arctic','nato','nubik','nodem', 'angela']
+    numbers = ['1234', '43557','2534','8544','7890','3498', '4592', '9832', '0532']
+    symbols = ['#', '@','$',"!']
 
     password_letters = [choice(letters)]
     password_symbol = [choice(symbols)]
