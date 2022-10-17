@@ -68,7 +68,7 @@ def save():
                     website_entry.delete(0, END)
                     password_entry.delete(0, END)
                     email_entry.delete(0, END)
-                    email_entry.insert(0, "devyanichavan110@gmail.com")
+                    email_entry.insert(0, "@gmail.com")
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
@@ -94,7 +94,7 @@ website_entry.grid(row=1, column=1,sticky="e", padx=5, pady=4)
 website_entry.focus()
 email_entry = Entry(width=44)
 email_entry.grid(row=2, column=1, columnspan=2, sticky="e", padx=2, pady=4)
-email_entry.insert(0, "devyanichavan110@gmail.com")
+email_entry.insert(0, "@gmail.com")
 password_entry = Entry(width=25)
 password_entry.grid(row=3, column=1, sticky='e', padx=5, pady=4)
 
